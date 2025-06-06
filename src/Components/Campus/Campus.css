@@ -1,0 +1,80 @@
+.campus {
+  margin: 80px auto;
+  width: 90%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 200px;
+  /* Uniform height */
+  object-fit: cover;
+  /* Ensures images maintain aspect ratio and fill the space */
+  border-radius: 10px;
+  box-shadow: rgba(155, 2, 2, 0.1) 0px 48px 100px 0px;
+  /* From your original */
+  background-color: #060845;
+  /* From your original */
+}
+
+/* Button styles from your original */
+.btn.dark {
+  background: #212ea0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.btn.dark:hover {
+  background: #04074e;
+}
+
+/* Media query for 980px */
+@media (max-width: 980px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .gallery-grid img {
+    height: 180px;
+    /* Slightly smaller for smaller screens */
+  }
+
+  .btn.dark {
+    height: 35px;
+    width: 100px;
+    font-size: 9px;
+    padding: 0px;
+    gap: 1.5px;
+    margin-top: -10px;
+    font-weight: bold;
+  }
+}
+
+/* Media query for 395px */
+@media (max-width: 395px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    /* Single column for very small screens */
+  }
+
+  .gallery-grid img {
+    height: 200px;
+  }
+}
