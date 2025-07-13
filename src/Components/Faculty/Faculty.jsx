@@ -4,22 +4,28 @@ import './Faculty.css';
 const Faculty = () => {
     const facultyData = [
         {
-            name: 'Dr. John Smith',
+            name: 'Manu Pratap Singh',
+            designation: 'Director',
+            qualification: 'ph.D in Computer Science ',
+            image: 'src/assets/manup.jpg',
+        },
+        {
+            name: 'Er. Prashant Maharishi',
             designation: 'Professor, Computer Science',
-            qualification: 'Ph.D. in Computer Science',
-            image: 'https://via.placeholder.com/150',
+            qualification: 'M.tech in Computer Science',
+            image: 'src/assets/prashant.jpg',
         },
         {
-            name: 'Prof. Jane Doe',
-            designation: 'Associate Professor, Mathematics',
-            qualification: 'M.Sc., Ph.D. in Applied Mathematics',
-            image: 'https://via.placeholder.com/150',
+            name: 'Er.Pragya Kabra ',
+            designation: 'Professor, Computer Science',
+            qualification: ' Ph.D. in Artificial Intelligence',
+            image: 'src/assets/pragya maam.png',
         },
         {
-            name: 'Dr. Michael Brown',
-            designation: 'Head of Physics Department',
-            qualification: 'Ph.D. in Theoretical Physics',
-            image: 'https://via.placeholder.com/150',
+            name: 'Saurbh Garg',
+            designation: 'Professor, Computer Science',
+            qualification: 'M.tech in Computer Science ',
+            image: 'https://upload.wikimedia.org/wikipedia/en/d/d5/Professor_%28Money_Heist%29.jpg',
         },
     ];
 

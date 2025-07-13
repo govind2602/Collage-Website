@@ -60,23 +60,6 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user_info">
-                <img src={ayushi} alt="user1" />
-                <div>
-                  <h3>Ayushi Verma</h3>
-                  <span>IET, Khandari</span>
-                </div>
-              </div>
-              <p>
-                IET offers a robust and comprehensive curriculum that covers a
-                wide range of engineering disciplines, ensuring that students
-                are well-prepared with both foundational knowledge and
-                specialized skills.
-              </p>
-            </div>
-          </li>
-          <li>
-            <div className="slide">
-              <div className="user_info">
                 <img src={isha} alt="user1" />
                 <div>
                   <h3>Isha Chaudhary</h3>
@@ -92,6 +75,24 @@ const Testimonials = () => {
             </div>
           </li>
           <li>
+            <div className="slide">
+              <div className="user_info">
+                <img src={ayushi} alt="user1" />
+                <div>
+                  <h3>Ayushi Verma</h3>
+                  <span>IET, Khandari</span>
+                </div>
+              </div>
+              <p>
+                IET offers a robust and comprehensive curriculum that covers a
+                wide range of engineering disciplines, ensuring that students
+                are well-prepared with both foundational knowledge and
+                specialized skills.
+              </p>
+            </div>
+          </li>
+          <li>
+
             <div className="slide">
               <div className="user_info">
                 <img src={ankit} alt="user1" />

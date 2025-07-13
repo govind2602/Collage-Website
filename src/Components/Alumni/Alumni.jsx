@@ -4,25 +4,32 @@ import './Alumni.css';
 const Alumni = () => {
     const alumniData = [
         {
-            name: 'Alice Johnson',
-            batch: '2015',
-            role: 'Software Engineer at TechCorp',
+            name: 'Aman Singh',
+            batch: '2018-22',
+            role: 'Quality Engineer at Lean-Tycoon',
             testimonial: 'The college provided me with a strong foundation in coding and problem-solving, which helped me excel in my career.',
-            image: 'https://via.placeholder.com/150',
+            image: 'src/assets/image.png',
         },
         {
-            name: 'Robert Lee',
-            batch: '2018',
-            role: 'Data Scientist at DataWorks',
+            name: 'Gopal Chaubey',
+            batch: '2018-22',
+            role: 'JE at Indian Oil Corporation limited',
             testimonial: 'The faculty and resources at the college were instrumental in shaping my analytical skills.',
-            image: 'https://via.placeholder.com/150',
+            image: 'src/assets/gopal..jpg',
         },
         {
-            name: 'Emma Davis',
-            batch: '2012',
-            role: 'Entrepreneur, Founder of EduStart',
+            name: 'Krishna Patel',
+            batch: '2018-22',
+            role: 'JE at Indian Oil Corporation limited',
             testimonial: 'The entrepreneurial spirit fostered by the college inspired me to start my own company.',
-            image: 'https://via.placeholder.com/150',
+            image: 'src/assets/kridhna.jpg',
+        },
+        {
+            name: 'Lavlesh Patel',
+            batch: '2018-22',
+            role: 'Engineer at Lean-Tycoon',
+            testimonial: 'The college provided me with a strong foundation in coding and problem-solving, which helped me excel in my career.',
+            image: 'src/assets/llllll.png',
         },
     ];
 
