@@ -1,3 +1,6 @@
+import manuImg from '../../assets/manup.jpg';
+import prashantImg from '../../assets/prashant.jpg';
+import pragyaImg from '../../assets/pragya maam.png';
 
 import './Faculty.css';
 
@@ -7,19 +10,19 @@ const Faculty = () => {
             name: 'Manu Pratap Singh',
             designation: 'Director',
             qualification: 'ph.D in Computer Science ',
-            image: 'src/assets/manup.jpg',
+            image: manuImg,
         },
         {
             name: 'Er. Prashant Maharishi',
             designation: 'Professor, Computer Science',
             qualification: 'M.tech in Computer Science',
-            image: 'src/assets/prashant.jpg',
+            image: prashantImg,
         },
         {
             name: 'Er.Pragya Kabra ',
             designation: 'Professor, Computer Science',
             qualification: ' Ph.D. in Artificial Intelligence',
-            image: 'src/assets/pragya maam.png',
+            image: pragyaImg,
         },
         {
             name: 'Saurbh Garg',

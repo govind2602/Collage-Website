@@ -1,3 +1,9 @@
+import './Alumni.css';
+
+import amanImg from '../../assets/image.png';
+import gopalImg from '../../assets/gopal..jpg';
+import krishnaImg from '../../assets/kridhna.jpg';
+import lavleshImg from '../../assets/llllll.png';
 
 import './Alumni.css';
 
@@ -8,28 +14,28 @@ const Alumni = () => {
             batch: '2018-22',
             role: 'Quality Engineer at Lean-Tycoon',
             testimonial: 'The college provided me with a strong foundation in coding and problem-solving, which helped me excel in my career.',
-            image: 'src/assets/image.png',
+            image: amanImg,
         },
         {
             name: 'Gopal Chaubey',
             batch: '2018-22',
             role: 'JE at Indian Oil Corporation limited',
             testimonial: 'The faculty and resources at the college were instrumental in shaping my analytical skills.',
-            image: 'src/assets/gopal..jpg',
+            image: gopalImg,
         },
         {
             name: 'Krishna Patel',
             batch: '2018-22',
             role: 'JE at Indian Oil Corporation limited',
             testimonial: 'The entrepreneurial spirit fostered by the college inspired me to start my own company.',
-            image: 'src/assets/kridhna.jpg',
+            image: krishnaImg,
         },
         {
             name: 'Lavlesh Patel',
             batch: '2018-22',
             role: 'Engineer at Lean-Tycoon',
             testimonial: 'The college provided me with a strong foundation in coding and problem-solving, which helped me excel in my career.',
-            image: 'src/assets/llllll.png',
+            image: lavleshImg,
         },
     ];
 
